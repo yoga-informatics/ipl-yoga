@@ -1,6 +1,6 @@
 package isp;
 
-class Motorcycle implements VehicleInterface {
+public class Motorcycle implements VehicleInterface {
     @Override
     public void drive() {
 
@@ -13,8 +13,5 @@ class Motorcycle implements VehicleInterface {
     public void refuel(){
 
     }
-    @Override
-    public void openDoors(){
-
-    }
+  
 }
